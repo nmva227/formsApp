@@ -14,10 +14,38 @@
   --color: black;
 }
 
+
+.botãoV{
+  --background: #584bc4;
+  --border-color: #000;
+  --background-activated: #a85cff;
+  --color: rgb(255, 255, 255);
+
+}
+.botão3{
+  --background: #584bc4;
+  --background-hover: #5f4daf;
+  --background-activated: #65995e;
+  --background-focused: #7764bb;
+
+  --color: rgb(255, 255, 255);
+
+  --border-radius: 0;
+  --border-color: #000;
+  --border-style: solid;
+  --border-width: 1px;
+
+  --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+
+  --ripple-color: deeppink;
+
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+}
+
 .msg-erro{
   color: red;
   font-size: 10px ;
   clear: both;
   position: relative;
 }
-

@@ -1,6 +1,9 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>REGISTRO</ion-title>
+    <ion-button class="botãoV" routerLink="/tabs/tab1" size="small">
+      <ion-icon slot="icon-only" name="arrow-back-circle"></ion-icon>
+    </ion-button>
+    <ion-title>Registro</ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content>
@@ -87,11 +90,8 @@
     </ion-item>
   </ion-list>
 
+<!--botão-->
+  <ion-button  (click)="salvarRegistro()" class="botão3" expand="full" >Salvar</ion-button>
 
-  <ion-button  (click)="salvarRegistro()" class="botão2" expand="full" >Salvar</ion-button>
-
-  <ion-button class="botãoV" routerLink="/tabs/tab1" size="small">
-    <ion-icon slot="icon-only" name="arrow-back-circle"></ion-icon>
-  </ion-button>
 
 </ion-content>

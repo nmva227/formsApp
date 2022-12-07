@@ -1,15 +1,7 @@
-.item{
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.texto{
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: oblique;
-  color: black;
-  font-size: 17px;
-}
-ion-button{
-  padding-top: 10px;
+.botãoV{
+  --background: #584bc4;
+  --border-color: #000;
+  --background-activated: #a85cff;
+  --color: rgb(255, 255, 255);
+
 }

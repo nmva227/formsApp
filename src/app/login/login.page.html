@@ -1,5 +1,8 @@
 <ion-header>
   <ion-toolbar>
+    <ion-button class="botãoV" routerLink="/tabs/tab1" size="small">
+      <ion-icon slot="icon-only" name="arrow-back-circle"></ion-icon>
+    </ion-button>
     <ion-title>LOGIN</ion-title>
   </ion-toolbar>
 </ion-header>
@@ -8,15 +11,15 @@
 
   <!--E/S-->
 
-  <ion-list class="ion-text-center">
-    <ion-item class="item">
-      <ion-label class="texto">E-mail :</ion-label>
-      <ion-input class="texto" placeholder="Insira seu e-mail"></ion-input>
+  <ion-list>
+    <ion-item>
+      <ion-label>E-mail :</ion-label>
+      <ion-input placeholder="Insira seu e-mail"></ion-input>
     </ion-item>
 
-    <ion-item class="item">
-      <ion-label class="texto">Senha :</ion-label>
-      <ion-input class="texto" placeholder="Coloque sua senha"></ion-input>
+    <ion-item>
+      <ion-label>Senha :</ion-label>
+      <ion-input placeholder="Coloque sua senha"></ion-input>
     </ion-item>
 
 
@@ -27,12 +30,10 @@
 
 <ion-button class="botão2" expand="full" >Entrar</ion-button>
 <ion-button class="botão2" expand="full" routerLink="/registro">Registrar</ion-button>
-
+<br>
 <ion-button class="botão3" expand="full" fill="outline">Esqueceu a senha?</ion-button>
 
-<ion-button class="botãoV" routerLink="/tabs/tab1" size="small">
-  <ion-icon slot="icon-only" name="arrow-back-circle"></ion-icon>
-</ion-button>
+
 
   </ion-list>
 </ion-content>
