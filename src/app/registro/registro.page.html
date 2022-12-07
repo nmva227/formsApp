@@ -5,15 +5,16 @@
 </ion-header>
 <ion-content>
   <ion-list [formGroup]="formRegistro">
-    <!-- Com isso nosso formulário já está ligado -->
+
+    <!--Item-->
+
     <ion-item class="item">
       <ion-label class="texto">Nome :</ion-label>
       <ion-input
         class="texto"
         placeholder="Insira seu Nome"
-        formControlName="nome"
-      >
-        <!-- Esse formControlName="Nome que você colocou no page.ts -->
+        formControlName="nome">
+
       </ion-input>
       <ng-container  *ngFor="let erro of mensagens.nome">
         <span class="msg-erro"
@@ -66,7 +67,9 @@
         </span>
       </ng-container>
     </ion-item>
-    <!-- Esse type serve para econder a senha -->
+
+<!--senha-->
+
     <ion-item class="item">
       <ion-label class="texto">Confirmar Senha :</ion-label>
       <ion-input
@@ -83,13 +86,12 @@
       </ng-container>
     </ion-item>
   </ion-list>
-  <ion-card class="ion-text-center" class="button">
-    <ion-button fill="clear" expand="full" (click)="salvarRegistro()">
-      <!-- Quando clicar vai salvar o registro -->
-      SALVAR
-    </ion-button>
-  </ion-card>
-  <ion-card class="ion-text-center" routerLink="/tabs/tab1" class="button">
-    <ion-button fill="clear" expand="full"> VOLTAR </ion-button>
-  </ion-card>
+
+
+  <ion-button  (click)="salvarRegistro()" class="botão2" expand="full" >Salvar</ion-button>
+
+  <ion-button class="botãoV" routerLink="/tabs/tab1" size="small">
+    <ion-icon slot="icon-only" name="arrow-back-circle"></ion-icon>
+  </ion-button>
+
 </ion-content>

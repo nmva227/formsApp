@@ -1,15 +1,36 @@
-.item{
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+.botão2{
+  --background: #584bc4;
+  --background-hover: #5f4daf;
+  --background-activated: #976de6;
+  --background-focused: #7764bb;
+
+  --color: rgb(255, 255, 255);
+
+  --border-radius: 0;
+  --border-color: #000;
+  --border-style: solid;
+  --border-width: 1px;
+
+  --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+
+  --ripple-color: deeppink;
+
+  --padding-top: 10px;
+  --padding-bottom: 10px;
 }
-.texto{
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: oblique;
-  color: black;
-  font-size: 17px;
+
+.botão3{
+
+  --border-color: #000;
+  --background-activated: #a85cff;
+  --color: rgb(0, 0, 0);
+
 }
-ion-button{
-  padding-top: 10px;
+
+.botãoV{
+  --background: #584bc4;
+  --border-color: #000;
+  --background-activated: #a85cff;
+  --color: rgb(255, 255, 255);
+
 }

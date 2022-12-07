@@ -5,6 +5,9 @@
 </ion-header>
 
 <ion-content>
+
+  <!--E/S-->
+
   <ion-list class="ion-text-center">
     <ion-item class="item">
       <ion-label class="texto">E-mail :</ion-label>
@@ -16,26 +19,20 @@
       <ion-input class="texto" placeholder="Coloque sua senha"></ion-input>
     </ion-item>
 
-    <ion-card class="ion-text-center" class="button">
-      <ion-button fill="clear" expand="full">
-        ENTRAR
-      </ion-button>
-    </ion-card>
-    <ion-card class="ion-text-center" routerLink="/registro" class="button">
-      <ion-button fill="clear" expand="full">
-        REGISTRAR
-      </ion-button>
-    </ion-card>
 
 
-    <ion-button fill="clear" class="">Esqueceu a senha?</ion-button>
+<!--botão-->
 
 
-    <ion-card class="ion-text-center" routerLink="/tabs/tab1" class="button">
-      <ion-button fill="clear" expand="full">
-        VOLTAR
-      </ion-button>
-    </ion-card>
+
+<ion-button class="botão2" expand="full" >Entrar</ion-button>
+<ion-button class="botão2" expand="full" routerLink="/registro">Registrar</ion-button>
+
+<ion-button class="botão3" expand="full" fill="outline">Esqueceu a senha?</ion-button>
+
+<ion-button class="botãoV" routerLink="/tabs/tab1" size="small">
+  <ion-icon slot="icon-only" name="arrow-back-circle"></ion-icon>
+</ion-button>
+
   </ion-list>
-
 </ion-content>
